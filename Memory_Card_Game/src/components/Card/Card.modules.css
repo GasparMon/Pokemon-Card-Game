@@ -1,0 +1,97 @@
+#card-container{
+    margin: 4px;
+    width: 150px;
+    height: 170px;
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-size: 100% 100%;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: fadeEffect 0.2s ease-in-out forwards;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border-style:inset;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+#card-container h1{
+    font-size: 25px;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+#card-container img{
+    width: 80px;
+    height: 80px;
+}
+
+#character{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.5vmin solid #404040;
+    box-shadow: 0.2rem 0.2rem #363636;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background-color: white;
+}
+
+#name{
+    height: 20px;
+    width: 120px;
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.5vmin solid #404040;
+    box-shadow: 0.2rem 0.2rem #363636;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background-color: white;
+}
+
+#card-unknow{
+    margin: 4px;
+    width: 150px;
+    height: 170px;
+    border: 5px solid rgb(112, 71, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: url(./src/img/pokecard.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style:inset;
+    background-color: rgb(255, 242, 98);
+}
+
+
+#card-unknow button{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

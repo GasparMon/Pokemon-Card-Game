@@ -1,0 +1,8 @@
+export const FILL = "FILL"
+export const SUCCESS = "SUCCESS"
+export const MATCH = "MATCH"
+export const CLEAN = "CLEAN"
+export const CHANGE = "CHANGE"
+export const VALIDATION = "VALIDATION"
+export const BUTTON_ACTIVE = "BUTTON_ACTIVE"
+export const BUTTON_INACTIVE = "BUTTON_INACTIVE"
