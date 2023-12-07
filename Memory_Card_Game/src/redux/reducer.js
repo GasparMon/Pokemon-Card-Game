@@ -113,6 +113,14 @@ export default function reducer(state = initialState, action) {
         
       }
 
+      case CLEAN:
+
+      return{
+        ...state,
+        full: [],
+        success: []
+      }
+
     default:
       return {
         ...state,

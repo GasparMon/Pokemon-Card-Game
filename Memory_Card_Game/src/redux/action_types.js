@@ -23,11 +23,10 @@ export function match(character){
         payload: character,
     }
 }
-export function clean(character){
+export function clean(){
 
     return{
         type: CLEAN,
-        payload:character,
     }
 }
 

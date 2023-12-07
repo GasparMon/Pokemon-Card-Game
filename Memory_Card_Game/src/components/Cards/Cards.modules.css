@@ -178,4 +178,30 @@
   color: #fdf731;
   -webkit-text-stroke: 3px blue;
   text-shadow: 15px 15px 15px rgb(0, 0, 0); 
+  margin: 30px;
+}
+
+#finish-title button {
+  width: 250px; 
+  height: 70px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 30px;
+  padding: 10px 25px;
+border: 2px solid rgb(50, 50, 50);
+border-bottom: 5px solid rgb(50, 50, 50);
+box-shadow: 0px 1px 6px 0px rgb(255, 255, 255);
+transform: translate(0, -3px);
+transition: 0.2s;
+transition-timing-function: linear;
+}
+
+#finish-title button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+#finish-title button:hover {
+  border-bottom: 10px solid rgb(50, 50, 50);
 }
