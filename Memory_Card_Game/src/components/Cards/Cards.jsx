@@ -48,9 +48,6 @@ export default function Cards(props) {
 
     const uniqueShuffledNumbers = generateNumbers(order_cards.length);
 
-    console.log(uniqueShuffledNumbers)
-    console.log(order_cards)
-
     for (let i = 0; i < order_cards.length; i++) {
       for (let j = 0; j < data.length; j++) {
         if (order_cards[i] === data[j].id) {
@@ -66,7 +63,7 @@ export default function Cards(props) {
     });
   };
 
-  const startGame = () => {
+  const renderGame = () => {
     if (play_order.length === 0) {
       return (
         <div id="cards-start">
@@ -110,7 +107,7 @@ export default function Cards(props) {
         <p>Pokemon Card Game</p>
         <img src="./src/img/pokeball.png" alt="title-pokeball" />
       </div>
-      {startGame()}
+      {renderGame()}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-#card-container{
+#card-container {
     margin: 4px;
     width: 150px;
     height: 170px;
@@ -15,31 +15,33 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: whitesmoke;
-    border-style:inset;
-}
-
-@keyframes fadeEffect {
+    border-style: inset;
+    transition: transform 0.5s ease; /* Nueva propiedad para la rotación */
+   
+  }
+  
+  @keyframes fadeEffect {
     from {
-        opacity: 0;
+      opacity: 0;
     }
     to {
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-
-
-#card-container h1{
+  }
+  
+  #card-container h1 {
     font-size: 25px;
     font-family: 'Londrina Solid', sans-serif;
-}
-
-#card-container img{
+    transform: rotateY(180deg);
+  }
+  
+  #card-container img {
     width: 80px;
     height: 80px;
-}
-
-#character{
+    transform: rotateY(180deg);
+  }
+  
+  #character {
     padding: 0;
     display: flex;
     align-items: center;
@@ -51,9 +53,9 @@
     color: rgb(0, 0, 0);
     padding: 2px;
     background-color: white;
-}
-
-#name{
+  }
+  
+  #name {
     height: 20px;
     width: 120px;
     margin: 10px 0 0 0;
@@ -67,9 +69,9 @@
     color: rgb(0, 0, 0);
     padding: 2px;
     background-color: white;
-}
-
-#card-unknow{
+  }
+  
+  #card-unknow {
     margin: 4px;
     width: 150px;
     height: 170px;
@@ -79,19 +81,32 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: url(./src/img/pokecard.png);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
-    border-style:inset;
-    background-color: rgb(255, 242, 98);
-}
-
-
-#card-unknow button{
+    border-style: inset;
+    background: radial-gradient(circle, white 30%, rgb(167, 208, 218) 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: fadeEffect 0.2s ease-in-out forwards;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: inset;
+    transition: transform 0.5s ease;
+  }
+  
+  #card-unknow button {
     width: 100px;
     height: 100px;
-    background-color: transparent;
+    background: url(./src/img/pokeball_bg.png);
+    background-size: cover;  /* Para asegurarse de que el fondo cubra completamente el botón */
+    background-repeat: no-repeat;
     border: none;
     cursor: pointer;
-}
+  }
+  
+  
+  #card-container.selected {
+    transform: rotateY(180deg); /* Nueva regla para la rotación */
+  }
+  
