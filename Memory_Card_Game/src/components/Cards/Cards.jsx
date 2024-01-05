@@ -56,8 +56,6 @@ export default function Cards(props) {
       }
     }
 
-    console.log(cards)
-
     cards.map((element) => {
       dispatch(fill(element));
     });

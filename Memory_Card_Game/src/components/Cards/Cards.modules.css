@@ -45,7 +45,7 @@
   width: 1350px;
   height: 580px;
   margin: 20px 0 0 0;
-  background: url(./src/img/poke_wall2.png);
+  background: url(/src/img/poke_wall2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@
   width: 1350px;
   height: 580px;
   margin: 20px 0 0 0;
-  background: url(./src/img/poke_wall2.png);
+  background: url(/src/img/poke_wall2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@
   align-items: center;
   justify-content: center;
   color: black;
-  background: url(./src/img/poke_wall2.png);
+  background: url(/src/img/poke_wall2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

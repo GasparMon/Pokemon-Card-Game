@@ -98,7 +98,7 @@
   #card-unknow button {
     width: 100px;
     height: 100px;
-    background: url(./src/img/pokeball_bg.png);
+    background: url(/src/img/pokeball_bg.png);
     background-size: cover;  /* Para asegurarse de que el fondo cubra completamente el botón */
     background-repeat: no-repeat;
     border: none;
