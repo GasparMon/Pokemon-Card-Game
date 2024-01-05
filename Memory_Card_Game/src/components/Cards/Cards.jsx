@@ -101,9 +101,9 @@ export default function Cards(props) {
   return (
     <div id="main-cards">
       <div id="title-game">
-        <img src="./src/img/pokeball.png" alt="title-pokeball" />
+        <img src="/src/img/pokeball.png" alt="title-pokeball" />
         <p>Pokemon Card Game</p>
-        <img src="./src/img/pokeball.png" alt="title-pokeball" />
+        <img src="/src/img/pokeball.png" alt="title-pokeball" />
       </div>
       {renderGame()}
     </div>
