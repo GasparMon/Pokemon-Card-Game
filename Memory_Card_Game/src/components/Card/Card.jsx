@@ -13,6 +13,11 @@ export default function Card(props) {
   const dispatch = useDispatch();
   const matcher = useSelector((state) => state.match);
 
+  useEffect(() => {
+    const image = new Image();
+    image.src = `/img/${props.image}.png`;
+  }, [props.image]);
+
   const handleStatus = () => {
     dispatch(buttonActive());
 
@@ -33,6 +38,8 @@ export default function Card(props) {
   };
 
   const play = () => {
+    const imagePath = `${props.image}`;
+    
     if (!props.status) {
       return (
         <div id="card-unknow">
@@ -47,7 +54,7 @@ export default function Card(props) {
       return (
         <div id="card-container" className={props.status ? 'selected' : ''}>
           <div id="character">
-            <img src={props.image} />
+          <img src={imagePath} alt={`Imagen ${props.image}`} />
           </div>
           <div id="name">
             <h1>{props.name}</h1>
