@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     name: "Bulbasaur",
-    image: "/src/img/1.png",
+    image: "/img/1.png",
     status: false,
     position:0,
     buttonActive: false
@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     name: "Charizard",
-    image: "/src/img/2.png",
+    image: "/img/2.png",
     status: false,
     position:0,
     buttonActive: false
@@ -18,7 +18,7 @@ const data = [
   {
     id: 3,
     name: "Charmander",
-    image: "/src/img/3.png",
+    image: "/img/3.png",
     status: false,
     position:0,
     buttonActive: false
@@ -26,7 +26,7 @@ const data = [
   {
     id: 4,
     name: "Clefairy",
-    image: "/src/img/4.png",
+    image: "/img/4.png",
     status: false,
     position:0,
     buttonActive: false
@@ -34,7 +34,7 @@ const data = [
   {
     id: 5,
     name: "Flareon",
-    image: "/src/img/5.png",
+    image: "/img/5.png",
     status: false,
     position:0,
     buttonActive: false
@@ -42,7 +42,7 @@ const data = [
   {
     id: 6,
     name: "Gyarados",
-    image: "/src/img/6.png",
+    image: "/img/6.png",
     status: false,
     position:0,
     buttonActive: false
@@ -50,7 +50,7 @@ const data = [
   {
     id: 7,
     name: "Ninetales",
-    image: "/src/img/7.png",
+    image: "/img/7.png",
     status: false,
     position:0,
     buttonActive: false
@@ -58,7 +58,7 @@ const data = [
   {
     id: 8,
     name: "Blastoise",
-    image: "/src/img/8.png",
+    image: "/img/8.png",
     status: false,
     position:0,
     buttonActive: false
@@ -66,7 +66,7 @@ const data = [
   {
     id: 9,
     name: "Oddish",
-    image: "/src/img/9.png",
+    image: "/img/9.png",
     status: false,
     position:0,
     buttonActive: false
@@ -74,7 +74,7 @@ const data = [
   {
     id: 10, //pendiente//
     name: "Growlithe",
-    image: "/src/img/10.png",
+    image: "/img/10.png",
     status: false,
     position:0,
     buttonActive: false
@@ -82,7 +82,7 @@ const data = [
   {
     id: 11,
     name: "Mew",
-    image: "/src/img/11.png",
+    image: "/img/11.png",
     status: false,
     position:0,
     buttonActive: false
@@ -90,7 +90,7 @@ const data = [
   {
     id: 12,
     name: "Venusaur",
-    image: "/src/img/12.png",
+    image: "/img/12.png",
     status: false,
     position:0,
     buttonActive: false
@@ -98,7 +98,7 @@ const data = [
   {
     id: 13,
     name: "Lapras",
-    image: "/src/img/13.png",
+    image: "/img/13.png",
     status: false,
     position:0,
     buttonActive: false
@@ -106,7 +106,7 @@ const data = [
   {
     id: 14,
     name: "Meowth",
-    image: "/src/img/14.png",
+    image: "/img/14.png",
     status: false,
     position:0,
     buttonActive: false
@@ -114,7 +114,7 @@ const data = [
   {
     id: 15,
     name: "Mewtwo",
-    image: "/src/img/15.png",
+    image: "/img/15.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -122,7 +122,7 @@ const data = [
   {
     id: 16,
     name: "Pikachu",
-    image: "/src/img/16.png",
+    image: "/img/16.png",
     status: false,
     position:0,
     buttonActive: false
@@ -130,7 +130,7 @@ const data = [
   {
     id: 17,
     name: "Snorlax",
-    image: "/src/img/17.png",
+    image: "/img/17.png",
     status: false,
     position:0,
     buttonActive: false
@@ -138,7 +138,7 @@ const data = [
   {
     id: 18,
     name: "Squirtle",
-    image: "/src/img/18.png",
+    image: "/img/18.png",
     status: false,
     position:0,
     buttonActive: false
@@ -146,7 +146,7 @@ const data = [
   {
     id: 19,
     name: "Vaporeon",
-    image: "/src/img/19.png",
+    image: "/img/19.png",
     status: false,
     position:0,
     buttonActive: false
@@ -154,7 +154,7 @@ const data = [
   {
     id: 20,
     name: "Vulpix",
-    image: "/src/img/20.png",
+    image: "/img/20.png",
     status: false,
     position:0,
     buttonActive: false
@@ -162,7 +162,7 @@ const data = [
   {
     id: 21,
     name: "Ash",
-    image: "/src/img/21.png",
+    image: "/img/21.png",
     status: false,
     position:0,
     buttonActive: false
@@ -170,7 +170,7 @@ const data = [
   {
     id: 22,
     name: "Abra",
-    image: "/src/img/22.png",
+    image: "/img/22.png",
     status: false,
     position:0,
     buttonActive: false
@@ -178,7 +178,7 @@ const data = [
   {
     id: 23,
     name: "Zubat",
-    image: "/src/img/23.png",
+    image: "/img/23.png",
     status: false,
     position:0,
     buttonActive: false
@@ -186,7 +186,7 @@ const data = [
   {
     id: 24,
     name: "M-Ball",
-    image: "/src/img/24.png",
+    image: "/img/24.png",
     status: false,
     position:0,
     buttonActive: false
@@ -194,7 +194,7 @@ const data = [
   {
     id: 25,
     name: "Jolteon",
-    image: "/src/img/25.png",
+    image: "/img/25.png",
     status: false,
     position:0,
     buttonActive: false
@@ -202,7 +202,7 @@ const data = [
   {
     id: 26,
     name: "Poliwrath",
-    image: "/src/img/26.png",
+    image: "/img/26.png",
     status: false,
     position:0,
     buttonActive: false
@@ -210,7 +210,7 @@ const data = [
   {
     id: 27,
     name: "Pidgeot",
-    image: "/src/img/27.png",
+    image: "/img/27.png",
     status: false,
     position:0,
     buttonActive: false
@@ -218,7 +218,7 @@ const data = [
   {
     id: 28,
     name: "Beedrill",
-    image: "/src/img/28.png",
+    image: "/img/28.png",
     status: false,
     position:0,
     buttonActive: false
@@ -226,7 +226,7 @@ const data = [
   {
     id: 29,
     name: "Primeape",
-    image: "/src/img/29.png",
+    image: "/img/29.png",
     status: false,
     position:0,
     buttonActive: false
@@ -234,7 +234,7 @@ const data = [
   {
     id: 30,
     name: "Nidoran ♂",
-    image: "/src/img/30.png",
+    image: "/img/30.png",
     status: false,
     position:0,
     buttonActive: false
@@ -242,7 +242,7 @@ const data = [
   {
     id: 31,
     name: "Omastar",
-    image: "/src/img/31.png",
+    image: "/img/31.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -250,7 +250,7 @@ const data = [
   {
     id: 32,
     name: "Gloom",
-    image: "/src/img/32.png",
+    image: "/img/32.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -258,7 +258,7 @@ const data = [
   {
     id: 33,
     name: "Caterpie",
-    image: "/src/img/33.png",
+    image: "/img/33.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -266,7 +266,7 @@ const data = [
   {
     id: 34,
     name: "Metapod",
-    image: "/src/img/34.png",
+    image: "/img/34.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -274,7 +274,7 @@ const data = [
   {
     id: 35,
     name: "Gloom",
-    image: "/src/img/35.png",
+    image: "/img/35.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -282,7 +282,7 @@ const data = [
   {
     id: 36,
     name: "Weezing",
-    image: "/src/img/36.png",
+    image: "/img/36.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -290,7 +290,7 @@ const data = [
   {
     id: 37,
     name: "Psyduck",
-    image: "/src/img/37.png",
+    image: "/img/37.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -298,7 +298,7 @@ const data = [
   {
     id: 38,
     name: "Chansey",
-    image: "/src/img/38.png",
+    image: "/img/38.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -306,7 +306,7 @@ const data = [
   {
     id: 39,
     name: "Staryu",
-    image: "/src/img/39.png",
+    image: "/img/39.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -314,7 +314,7 @@ const data = [
   {
     id: 40,
     name: "Omanyte",
-    image: "/src/img/40.png",
+    image: "/img/40.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -322,7 +322,7 @@ const data = [
   {
     id: 41,
     name: "Tangela",
-    image: "/src/img/41.png",
+    image: "/img/41.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -330,7 +330,7 @@ const data = [
   {
     id: 42,
     name: "Koffing",
-    image: "/src/img/42.png",
+    image: "/img/42.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -338,7 +338,7 @@ const data = [
   {
     id: 43,
     name: "Cubone",
-    image: "/src/img/43.png",
+    image: "/img/43.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -346,7 +346,7 @@ const data = [
   {
     id: 44,
     name: "Jigglypuff",
-    image: "/src/img/44.png",
+    image: "/img/44.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -354,7 +354,7 @@ const data = [
   {
     id: 45,
     name: "Farfetch'd",
-    image: "/src/img/45.png",
+    image: "/img/45.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -362,7 +362,7 @@ const data = [
   {
     id: 46,
     name: "Ditto",
-    image: "/src/img/46.png",
+    image: "/img/46.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -370,7 +370,7 @@ const data = [
   {
     id: 47,
     name: "Golbat",
-    image: "/src/img/47.png",
+    image: "/img/47.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -378,7 +378,7 @@ const data = [
   {
     id: 48,
     name: "Shellder",
-    image: "/src/img/48.png",
+    image: "/img/48.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -386,7 +386,7 @@ const data = [
   {
     id: 49,
     name: "Arcanine",
-    image: "/src/img/49.png",
+    image: "/img/49.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -394,7 +394,7 @@ const data = [
   {
     id: 50,
     name: "Zapdos",
-    image: "/src/img/50.png",
+    image: "/img/50.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -402,7 +402,7 @@ const data = [
   {
     id: 51,
     name: "Slowpoke",
-    image: "/src/img/51.png",
+    image: "/img/51.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -410,7 +410,7 @@ const data = [
   {
     id: 52,
     name: "Slowbro",
-    image: "/src/img/52.png",
+    image: "/img/52.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -418,7 +418,7 @@ const data = [
   {
     id: 53,
     name: "Lickitung",
-    image: "/src/img/53.png",
+    image: "/img/53.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -426,7 +426,7 @@ const data = [
   {
     id: 54,
     name: "Starmie",
-    image: "/src/img/54.png",
+    image: "/img/54.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -434,7 +434,7 @@ const data = [
   {
     id: 55,
     name: "Butterfree",
-    image: "/src/img/55.png",
+    image: "/img/55.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -442,7 +442,7 @@ const data = [
   {
     id: 56,
     name: "Ivysaur",
-    image: "/src/img/56.png",
+    image: "/img/56.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -450,7 +450,7 @@ const data = [
   {
     id: 57,
     name: "Wartortle",
-    image: "/src/img/57.png",
+    image: "/img/57.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -458,7 +458,7 @@ const data = [
   {
     id: 58,
     name: "Dragonite",
-    image: "/src/img/58.png",
+    image: "/img/58.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -466,7 +466,7 @@ const data = [
   {
     id: 59,
     name: "Gengar",
-    image: "/src/img/59.png",
+    image: "/img/59.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -474,7 +474,7 @@ const data = [
   {
     id: 60,
     name: "Haunter",
-    image: "/src/img/60.png",
+    image: "/img/60.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -482,7 +482,7 @@ const data = [
   {
     id: 61,
     name: "Gastly",
-    image: "/src/img/61.png",
+    image: "/img/61.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -490,7 +490,7 @@ const data = [
   {
     id: 62,
     name: "Cloyster",
-    image: "/src/img/62.png",
+    image: "/img/62.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -498,7 +498,7 @@ const data = [
   {
     id: 63,
     name: "Charmeleon",
-    image: "/src/img/63.png",
+    image: "/img/63.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -506,7 +506,7 @@ const data = [
   {
     id: 64,
     name: "Electabuzz",
-    image: "/src/img/64.png",
+    image: "/img/64.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -514,7 +514,7 @@ const data = [
   {
     id: 65,
     name: "Magmar",
-    image: "/src/img/65.png",
+    image: "/img/65.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -522,7 +522,7 @@ const data = [
   {
     id: 66,
     name: "Alakazam",
-    image: "/src/img/66.png",
+    image: "/img/66.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -530,7 +530,7 @@ const data = [
   {
     id: 67,
     name: "Kadabra",
-    image: "/src/img/67.png",
+    image: "/img/67.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -538,7 +538,7 @@ const data = [
   {
     id: 68,
     name: "Jynx",
-    image: "/src/img/68.png",
+    image: "/img/68.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -546,7 +546,7 @@ const data = [
   {
     id: 69,
     name: "Mr. Mime",
-    image: "/src/img/69.png",
+    image: "/img/69.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -554,7 +554,7 @@ const data = [
   {
     id: 70,
     name: "Ekans",
-    image: "/src/img/70.png",
+    image: "/img/70.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -562,7 +562,7 @@ const data = [
   {
     id: 71,
     name: "Tentacool",
-    image: "/src/img/71.png",
+    image: "/img/71.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -570,7 +570,7 @@ const data = [
   {
     id: 72,
     name: "Tentacruel",
-    image: "/src/img/72.png",
+    image: "/img/72.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -578,7 +578,7 @@ const data = [
   {
     id: 73,
     name: "Seel",
-    image: "/src/img/73.png",
+    image: "/img/73.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -586,7 +586,7 @@ const data = [
   {
     id: 74,
     name: "Onix",
-    image: "/src/img/74.png",
+    image: "/img/74.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -594,7 +594,7 @@ const data = [
   {
     id: 75,
     name: "Persian",
-    image: "/src/img/75.png",
+    image: "/img/75.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -602,7 +602,7 @@ const data = [
   {
     id: 76,
     name: "Poliwag",
-    image: "/src/img/76.png",
+    image: "/img/76.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -610,7 +610,7 @@ const data = [
   {
     id: 77,
     name: "Pinsir",
-    image: "/src/img/77.png",
+    image: "/img/77.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -618,7 +618,7 @@ const data = [
   {
     id: 78,
     name: "Drowzee",
-    image: "/src/img/78.png",
+    image: "/img/78.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -626,7 +626,7 @@ const data = [
   {
     id: 79,
     name: "Bellsprout",
-    image: "/src/img/79.png",
+    image: "/img/79.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -634,7 +634,7 @@ const data = [
   {
     id: 80,
     name: "Dratini",
-    image: "/src/img/80.png",
+    image: "/img/80.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -642,7 +642,7 @@ const data = [
   {
     id: 81,
     name: "Dragonair",
-    image: "/src/img/81.png",
+    image: "/img/81.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -650,7 +650,7 @@ const data = [
   {
     id: 82,
     name: "Kakuna",
-    image: "/src/img/82.png",
+    image: "/img/82.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -658,7 +658,7 @@ const data = [
   {
     id: 83,
     name: "Diglett",
-    image: "/src/img/83.png",
+    image: "/img/83.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -666,7 +666,7 @@ const data = [
   {
     id: 84,
     name: "Electrode",
-    image: "/src/img/84.png",
+    image: "/img/84.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -674,7 +674,7 @@ const data = [
   {
     id: 85,
     name: "Fearow",
-    image: "/src/img/85.png",
+    image: "/img/85.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -682,7 +682,7 @@ const data = [
   {
     id: 86,
     name: "Dodrio",
-    image: "/src/img/86.png",
+    image: "/img/86.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -690,7 +690,7 @@ const data = [
   {
     id: 87,
     name: "Porygon",
-    image: "/src/img/87.png",
+    image: "/img/87.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -698,7 +698,7 @@ const data = [
   {
     id: 88,
     name: "Voltorb",
-    image: "/src/img/88.png",
+    image: "/img/88.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -706,7 +706,7 @@ const data = [
   {
     id: 89,
     name: "Weedle",
-    image: "/src/img/89.png",
+    image: "/img/89.png",
     status: false,
     position: 0,
     buttonActive: false
@@ -714,7 +714,7 @@ const data = [
   {
     id: 90,
     name: "Gloom",
-    image: "/src/img/90.png",
+    image: "/img/90.png",
     status: false,
     position: 0,
     buttonActive: false
