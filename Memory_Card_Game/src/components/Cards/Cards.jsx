@@ -33,7 +33,7 @@ export default function Cards(props) {
     numeros = [];
     winning = [];
 
-    while (numeros.length < 12) {
+    while (numeros.length < 15) {
       const newNumero = getRandomInt(1, 90);
       if (!numeros.includes(newNumero)) {
         numeros.push(newNumero);
@@ -68,7 +68,7 @@ export default function Cards(props) {
           <button onClick={handleStart}>START</button>
         </div>
       );
-    } else if (play_order.length > 1 && winning.length < 23) {
+    } else if (play_order.length > 1 && winning.length < 29) {
       return (
         <div id="cards-conteiner">
           {play_order.map((element, index) => (
@@ -84,7 +84,7 @@ export default function Cards(props) {
           ))}
         </div>
       );
-    } else if (play_order.length > 1 && winning.length > 22) {
+    } else if (play_order.length > 1 && winning.length > 28) {
       return (
         <div id="cards-finish">
           <div id="finish-title">
@@ -101,9 +101,11 @@ export default function Cards(props) {
   return (
     <div id="main-cards">
       <div id="title-game">
-        <img src="/src/img/pokeball.png" alt="title-pokeball" />
+        <img src="/src/img/ptitle.png" alt="ptitle" />
+        <img src="/src/img/ctitle.png" alt="ctitle" />
         <p>Pokemon Card Game</p>
-        <img src="/src/img/pokeball.png" alt="title-pokeball" />
+        <img src="/src/img/btitle.png" alt="btitle" />
+        <img src="/src/img/stitle.png" alt="stitle" />
       </div>
       {renderGame()}
     </div>

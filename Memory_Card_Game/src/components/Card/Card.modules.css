@@ -1,112 +1,109 @@
 #card-container {
-    margin: 4px;
-    width: 150px;
-    height: 170px;
-    border: 5px solid rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background-size: 100% 100%;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    animation: fadeEffect 0.2s ease-in-out forwards;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: whitesmoke;
-    border-style: inset;
-    transition: transform 0.5s ease; /* Nueva propiedad para la rotación */
+  margin: 4px;
+  width: 150px;
+  height: 170px;
+  border: 0.7vmin solid  #ba570b;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  border-style: inset;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    35deg,
    
+    #e9f41a 20%,
+    #feffb0 80%
+  );
+  transition: transform 0.5s ease; /* Nueva propiedad para la rotación */
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
   }
-  
-  @keyframes fadeEffect {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  to {
+    opacity: 1;
   }
+}
+
+#card-container h1 {
+  font-size: 25px;
+  transform: rotateY(180deg);
+}
+
+#card-container img {
+  width: 80px;
+  height: 80px;
+  transform: rotateY(180deg);
+}
+
+#character {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 0.5vmin solid #a84a00;
+  box-shadow: 0.2rem 0.2rem #f76d038e;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  background-color: white;
+
+}
+
+#name {
+  height: 30px;
+  width: 120px;
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 0.5vmin solid #a84a00;
+  box-shadow: 0.2rem 0.2rem #f76d038e;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  background-color: white;
+}
+
+#card-unknow {
+  margin: 4px;
+  width: 150px;
+  height: 170px;
+  border: 0.7vmin solid  #256a90;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  animation: fadeEffect 0.2s ease-in-out forwards;
+  border-style: inset;
+  transition: transform 0.5s ease;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+   
+    #77E4D4 20%,
+    #66f583 80%
+  );
   
-  #card-container h1 {
-    font-size: 25px;
-    font-family: 'Londrina Solid', sans-serif;
-    transform: rotateY(180deg);
-  }
-  
-  #card-container img {
-    width: 80px;
-    height: 80px;
-    transform: rotateY(180deg);
-  }
-  
-  #character {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: 0.5vmin solid #404040;
-    box-shadow: 0.2rem 0.2rem #363636;
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    padding: 2px;
-    background-color: white;
-  }
-  
-  #name {
-    height: 20px;
-    width: 120px;
-    margin: 10px 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: 0.5vmin solid #404040;
-    box-shadow: 0.2rem 0.2rem #363636;
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    padding: 2px;
-    background-color: white;
-  }
-  
-  #card-unknow {
-    margin: 4px;
-    width: 150px;
-    height: 170px;
-    border: 5px solid rgb(112, 71, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background-size: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-style: inset;
-    background: radial-gradient(circle, white 30%, rgb(167, 208, 218) 70%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    animation: fadeEffect 0.2s ease-in-out forwards;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-style: inset;
-    transition: transform 0.5s ease;
-  }
-  
-  #card-unknow button {
-    width: 100px;
-    height: 100px;
-    background: url(/src/img/pokeball_bg.png);
-    background-size: cover;  /* Para asegurarse de que el fondo cubra completamente el botón */
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-  }
-  
-  
-  #card-container.selected {
-    transform: rotateY(180deg); /* Nueva regla para la rotación */
-  }
-  
+}
+
+#card-unknow button {
+  width: 100px;
+  height: 100px;
+  background: url(/src/img/pokecardball.png);
+  background-size: cover; /* Para asegurarse de que el fondo cubra completamente el botón */
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+#card-container.selected {
+  transform: rotateY(180deg); /* Nueva regla para la rotación */
+}
