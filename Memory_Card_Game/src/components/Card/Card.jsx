@@ -50,7 +50,7 @@ export default function Card(props) {
           ></button>
         </div>
       );
-    } else {
+    } else if(props.status && props.image) {
       return (
         <div id="card-container" className={props.status ? 'selected' : ''}>
           <div id="character">
