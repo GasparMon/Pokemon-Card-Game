@@ -1,7 +1,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   color-scheme: light dark;
-  background: url(./img/pokeback.png);
+  background: url(/img/pokeback.png);
   background-size:contain;
   background-repeat: repeat;
   filter: brightness();
