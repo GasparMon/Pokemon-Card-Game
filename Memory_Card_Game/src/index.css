@@ -14,3 +14,426 @@ body {
   justify-content: center;
   padding: 10px;
 }
+
+
+@media screen and (max-width: 1700px){
+
+  #title-game {
+    width: 90%;
+    height: 12%;
+  }
+  #title-game p {
+    font-size: 80px;
+
+  }
+
+  #title-game img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #cards-container {
+    width: 100%;
+    height: 70%;
+  }
+  
+  #cards-start {
+    width: 100%;
+    height: 70%;
+  }
+  
+  #cards-finish {
+    width: 100%;
+    height: 70%;
+  }
+
+  #cards-start button {
+    width: 16%; 
+    height: 37%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  #card-container {
+    width: 130px;
+    height: 170px;
+  }
+
+  #card-container h1 {
+    font-size: 17px;
+  }
+
+  #card-container img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #name {
+    height: 30px;
+    width: 100px;
+    
+  }
+
+  #card-unknow {
+
+    width: 130px;
+    height: 170px;
+   
+  }
+
+  #card-unknow button {
+    width: 100px;
+    height: 100px;
+
+  }
+  
+}
+
+@media screen and (max-width: 1660px){
+
+
+  #cards-start button {
+    width: 16%; 
+    height: 35%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  #card-container {
+    width: 120px;
+    height: 170px;
+  }
+
+  #card-container h1 {
+    font-size: 16px;
+  }
+
+  #name {
+    height: 30px;
+    width: 97px;
+    
+  }
+
+  #card-unknow {
+
+    width: 120px;
+    height: 170px;
+   
+  }
+
+}
+
+@media screen and (max-width: 1550px){
+
+
+  #cards-start button {
+    width: 16%; 
+    height: 33%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  #card-container {
+    width: 110px;
+    height: 150px;
+  }
+
+  #card-container h1 {
+    font-size: 14px;
+  }
+
+  #name {
+    height: 30px;
+    width: 90px;
+    
+  }
+
+  #card-container img {
+    width: 70px;
+    height: 70px;
+  }
+
+  #card-unknow {
+
+    width: 110px;
+    height: 150px;
+   
+  }
+
+}
+
+@media screen and (max-width: 1460px){
+
+
+  #cards-start button {
+    width: 16%; 
+    height: 31%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  #card-container {
+    width: 100px;
+    height: 150px;
+  }
+
+  #card-container h1 {
+    font-size: 12px;
+  }
+
+  #name {
+    height: 30px;
+    width: 70px;
+    
+  }
+
+  #card-container img {
+    width: 65px;
+    height: 65px;
+  }
+
+  #card-unknow {
+
+    width: 100px;
+    height: 150px;
+   
+  }
+
+  #title-game p {
+    font-size: 70px;
+
+  }
+
+}
+
+@media screen and (max-width: 1335px){
+
+
+  #cards-start button {
+    width: 16%; 
+    height: 28%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  #card-container {
+    width: 90px;
+    height: 150px;
+  }
+
+  #card-container h1 {
+    font-size: 11px;
+  }
+
+  #name {
+    height: 30px;
+    width: 70px;
+    
+  }
+
+  #card-container img {
+    width: 65px;
+    height: 65px;
+  }
+
+  #card-unknow {
+
+    width: 90px;
+    height: 150px;
+   
+  }
+
+  #title-game p {
+    font-size: 60px;
+    -webkit-text-stroke: 3px #001aff;
+  }
+
+
+}
+
+@media screen and (max-width: 1230px){
+
+
+  #cards-start button {
+    width: 16%; 
+    height: 27%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+  #card-container {
+    width: 140px;
+    height: 110px;
+  }
+
+  #card-container h1 {
+    font-size: 11px;
+  }
+
+  #name {
+    height: 20px;
+    width: 90px;
+    
+  }
+
+  #card-container img {
+    width: 60px;
+    height: 50px;
+  }
+
+  #card-unknow {
+
+    width: 140px;
+    height: 110px;
+   
+  }
+
+  #title-game p {
+    font-size: 55px;
+    -webkit-text-stroke: 3px #001aff;
+  }
+}
+
+@media screen and (max-width: 1050px){
+
+
+  #cards-start button {
+    width: 16%; 
+    height: 24%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  #card-container {
+    width: 140px;
+    height: 92px;
+  }
+
+  #card-container h1 {
+    font-size: 11px;
+  }
+
+  #name {
+    height: 15px;
+    width: 90px;
+    
+  }
+
+  #card-container img {
+    width: 50px;
+    height: 40px;
+  }
+
+  #card-unknow {
+
+    width: 140px;
+    height: 92px;
+   
+  }
+
+  #title-game p {
+    font-size: 55px;
+    -webkit-text-stroke: 3px #001aff; 
+  }
+
+
+}
+
+@media screen and (max-width: 880px){
+
+
+  #cards-start button {
+    width: 20%; 
+    height: 22%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  #title-game p {
+    font-size: 45px;
+    -webkit-text-stroke: 2px #001aff;
+  }
+
+  #card-container {
+    width: 120px;
+    height: 92px;
+  }
+
+  #card-container h1 {
+    font-size: 11px;
+  }
+
+  #name {
+    height: 15px;
+    width: 90px;
+    
+  }
+
+  #card-container img {
+    width: 50px;
+    height: 40px;
+  }
+
+  #card-unknow {
+
+    width: 120px;
+    height: 92px;
+   
+  }
+
+
+}
+
+@media screen and (max-width: 770px){
+
+
+  #cards-start button {
+    width: 22%; 
+    height: 22%;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  #title-game p {
+    font-size: 40px;
+    -webkit-text-stroke: 2px #001aff;
+  }
+
+  #card-container {
+    width: 100px;
+    height: 92px;
+  }
+
+  #card-container h1 {
+    font-size: 10px;
+  }
+
+  #name {
+    height: 15px;
+    width: 70px;
+    
+  }
+
+  #card-container img {
+    width: 50px;
+    height: 40px;
+  }
+
+  #card-unknow {
+
+    width: 100px;
+    height: 92px;
+   
+  }
+
+
+}
